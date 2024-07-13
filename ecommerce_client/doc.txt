@@ -1,0 +1,25 @@
+
+
+1. pip install django
+
+2. django-admin startproject client
+
+3. django-admin startapp web
+
+4. client => settings => INSTALLED_APPS[] listesine 'web' ekle.
+
+5. web => models.py => Category sınıfı yaratılır.
+
+6. web => forms.py yaratılır.
+
+7. web => views.py => create() fonksiyonu yazılır.
+
+8. web => urls.py açılır.
+
+9. client => urls.py => web.urls.py include edilir.
+
+10. web => templates klasörü açalım.
+
+11. web => templates => base.html yaratalım.
+
+12. web => templates => create.html yaratlım.
